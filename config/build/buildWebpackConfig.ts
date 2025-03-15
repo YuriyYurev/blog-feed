@@ -1,6 +1,5 @@
-import path from "path";
 import { Configuration } from "webpack";
-import { BuildOptions, BuildPaths } from "./types/config";
+import { BuildOptions } from "./types/config";
 import { buildPlugins } from "./buildPlugins";
 import { buildLoaders } from "./buildLoaders";
 import { buildResolves } from "./buildResolves";
