@@ -1,8 +1,8 @@
 import "./styles/index.scss";
-import { classNames } from "shared/lib/ClassNames/ClassNames";
 import { useTheme } from "app/providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import { Navbar } from "widgets/Navbar";
+import { classNames } from "shared/lib/classNames/classNames";
 
 export default function App() {
   const { theme, toggleTheme } = useTheme();
