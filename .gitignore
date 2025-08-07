@@ -1,0 +1,32 @@
+# Build dir
+build
+
+# Webpack dev-server hot-update
+build/js/*.hot-update.*
+build/js/*.webpack-dev-server.*
+
+# VisualStudioCode
+.vscode
+
+# Node.js modules
+node_modules
+
+# WebStorm project files
+.idea
+
+# NetBeans project files
+nbproject
+
+# Zend Studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# Package hash
+package-lock.hash
