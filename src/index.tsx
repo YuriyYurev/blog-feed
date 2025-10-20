@@ -1,3 +1,5 @@
 import { render } from "react-dom";
 import "./index.scss";
-render(<div>debv</div>, document.getElementById("root"));
+import { App } from "./App";
+
+render(<App />, document.getElementById("root"));
