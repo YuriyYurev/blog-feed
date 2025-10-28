@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { routeConfig } from 'shared/config/routeConfig/routeConfig';
 
 export const AppRouter = () => (
+    // eslint-disable-next-line i18next/no-literal-string
     <Suspense fallback={<h1>Загрука</h1>}>
         <Routes>
             {Object.values(routeConfig).map(({ path, element }) => (
